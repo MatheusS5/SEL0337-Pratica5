@@ -1,0 +1,11 @@
+[Unit]
+Description= Random RGB
+After=multi-user.target
+
+[Service]
+ExecStart=/home/sel/6451/bin/python /home/sel/6451/Pratica5/randrgb.py
+ExecStop=/home/sel/6451/Pratica5/finalizaled.sh
+user=SEL
+
+[Install]
+WantedBy=multi-user.target
