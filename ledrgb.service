@@ -5,7 +5,6 @@ After=multi-user.target
 [Service]
 ExecStart=/home/sel/6451/bin/python3 /home/sel/6451/Pratica5/randrgb.py
 ExecStop=/home/sel/6451/Pratica5/finalizaled.sh
-#ExecStop=-usr/bin/sh -c "echo 17 > /sys/class/gpio/unexport; echo 27 > /sys/class/gpio/unexport; echo 22 > /sys/class/gpio/unexport; /home/sel/6451/Pratica5/finalizaled.sh"
 User=sel
 
 [Install]

@@ -3,17 +3,13 @@ from time import sleep
 from random import random
 
 # Configura o LED RGB nas portas GPIO 17 (Red), 27 (Green), 22 (Blue)
-# A biblioteca gerencia o PWM automaticamente.
 led = RGBLED(red=17, green=27, blue=22)
 
 #try:
 while True:
-        # random() gera um número flutuante entre 0.0 e 1.0 automaticamente.
-        # A propriedade .color aceita uma tupla (R, G, B)
-    led.color = (random(), random(), random())
-        
-        # Espera um tempo fixo ou aleatório (ex: 1.5 segundos)
-    sleep(1.5)
     
-#finally:
-    #gpio.cleanup()
+    led.color = (random(), random(), random())   # Atualiza (R, G, B) por PWM com valores de 0 a 1
+    # random() gera um número float entre 0.0 e 1.0
+    
+    sleep(1.5)   # Espera 1.5s
+

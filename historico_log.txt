@@ -1,0 +1,17 @@
+commit 89c8cb54775eba04e3bc7d9d6bc408f3dc3eefdf
+Author: MatheusS5 <matheus_ms@usp.br>
+Date:   Thu Dec 4 11:12:15 2025 -0300
+
+    Versao 2: Codigos atualizados e verificados
+
+commit 2b13f92272832481cf857c4993065a35d4155999
+Author: MatheusS5 <matheus_ms@usp.br>
+Date:   Thu Dec 4 11:08:50 2025 -0300
+
+    Versao 1: Primeiros codigos
+
+commit 4287eeec5894d0432d5e7d52f8a6b92efc381efe
+Author: MatheusS5 <105293913+MatheusS5@users.noreply.github.com>
+Date:   Thu Dec 4 11:06:07 2025 -0300
+
+    Initial commit
