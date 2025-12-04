@@ -6,10 +6,14 @@ from random import random
 # A biblioteca gerencia o PWM automaticamente.
 led = RGBLED(red=17, green=27, blue=22)
 
+#try:
 while True:
-    # random() gera um número flutuante entre 0.0 e 1.0 automaticamente.
-    # A propriedade .color aceita uma tupla (R, G, B)
+        # random() gera um número flutuante entre 0.0 e 1.0 automaticamente.
+        # A propriedade .color aceita uma tupla (R, G, B)
     led.color = (random(), random(), random())
-    
-    # Espera um tempo fixo ou aleatório (ex: 1.5 segundos)
+        
+        # Espera um tempo fixo ou aleatório (ex: 1.5 segundos)
     sleep(1.5)
+    
+#finally:
+    #gpio.cleanup()
