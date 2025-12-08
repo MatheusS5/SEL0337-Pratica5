@@ -1,0 +1,57 @@
+  838  git config --user.name "Matheus5S"
+  839  git config --global user.name "Matheus5S"
+  840  git config --global user.email "matheus_ms@usp.br"
+  841  cd 6451
+  842  cd Pratica5
+  843  git config --user.name "MatheusS5"
+  844  git config --global user.email "matheus_ms@usp.br"
+  845  git config --user.name "MatheusS5"
+  846  git clone https://github.com/MatheusS5/SEL0337
+  847  git status
+  848  git add .
+  849  git commit -m "Versao 1: Primeiros codigos"
+  850  git push
+  851  git config --global user.name "MatheusS5"
+  853  git config --global user.email "matheus_ms@usp.br"
+  854  git push
+  855  git push https://github.com/MatheusS5/SEL0337
+  856  git log
+  857  cd SEL0337
+  858  git push
+  859  git log
+  860  git add .
+  861  git commit -m "Versao 2: Codigos atualizados e verificados"
+  862  git push
+  863  git log
+  864  cd ..
+  865  git clone https://github.com/MatheusS5/SEL0337-Pratica5
+  866  cd SEL0337-Pratica5
+  867  git add .
+  868  git commit -m "Versao 1: Primeiros codigos"
+  869  git push
+  870  git add .
+  871  git commit -m "Versao 2: Codigos atualizados e verificados"
+  872  git push
+  873  git log
+  874  cd ..
+  875  ./finalizaled.sh 
+  876  sudo ./finalizaled.sh 
+  877  chmod +x finalizaled.sh 
+  878  sudo cp ledrgb.service /lib/systemd/system
+  879  chmod +x finalizaled.sh 
+  880  sudo systemctl daemon-reload
+  881  sudo systemctl start ledrgb
+  882  sudo systemctl stop ledrgb
+  883  cd SEL0337-Pratica5/
+  884  git add .
+  885  git commit -m "Versao 3: Codigos testados e comentados"
+  886  git push
+  887  git log > git_log.txt
+  888  sudo systemctl enable ledrgb
+  889  sudo shutdown now
+  890  sudo systemctl stop ledrgb
+  891  sudo systemctl start ledrgb
+  892  sudo systemctl stop ledrgb
+  893  cd 6451
+  894  cd Pratica5
+  895  history > hist.txt
